@@ -12,14 +12,6 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // Opacity is performance intencive
-          // Opacity(
-          //   opacity: 0.1,
-          //   child: Image.asset(
-          //     'assets/images/quiz-logo.png',
-          //     width: 300.0,
-          //   ),
-          // ),
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300.0,
